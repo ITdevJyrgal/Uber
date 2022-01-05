@@ -1,0 +1,17 @@
+@import "./../Style/Home/home.scss";
+@import "./../Style/Hero/hero.scss";
+@import "./../Style/Home/footer.scss";
+@import "./../Style/About/about";
+@import "./../Style/About/heroAbout";
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a, a:hover{
+  text-decoration: none;
+}

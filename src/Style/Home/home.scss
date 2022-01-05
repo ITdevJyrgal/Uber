@@ -1,0 +1,50 @@
+.width {
+  width: 100%;
+  height: 72px;
+  left: 0;
+  top: 0;
+  background: #FFFFFF;
+  box-shadow: 0 0 20px rgba(38, 38, 38, 0.16);
+
+  &-img {
+    margin: 2% 2%;
+  }
+
+  &-btn {
+    margin-left: 73%;
+    padding: 10px 20px;
+    margin-top: 16px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    transition: .5s;
+    cursor: pointer;
+
+    &:hover {
+      background: #000;
+      color: white;
+    }
+  }
+
+  &-basket {
+    margin-left: 94%;
+    margin-top: -8%;
+  }
+
+  @media (max-width: 376px) {
+    .width-basket {
+      display: none;
+    }
+    .width-btn {
+      padding: 6px 15px;
+      margin-top: 19px;
+      z-index: 1235;
+      margin-left: 90px;
+      position: absolute;
+    }
+    .width-img {
+      margin: 9% 2%;
+    }
+  }
+}
+

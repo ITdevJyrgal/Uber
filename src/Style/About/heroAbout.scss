@@ -1,0 +1,66 @@
+.supe {
+  color: black;
+  padding: 2% 2rem;
+  font-size: 22px;
+  transition: .4s;
+  cursor: pointer;
+  &:hover {
+    color: #327430;
+  }
+
+  &-width {
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.37);
+  }
+
+  &-zac {
+    color: black;
+    font-size: 30px;
+    padding: 7% 2%;
+  }
+
+  &-square {
+    margin-bottom: 8%;
+    width: 57%;
+    height: 343px;
+    margin-left: 24%;
+    background: rgb(38, 36, 36);
+    border-radius: 1rem;
+  }
+
+  &-na {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  &-na2 {
+    text-align: center;
+    color: #949292;
+  }
+
+  &-ob {
+    text-align: center;
+    padding-left: 38px;
+    margin-top: 136px;
+
+  }
+
+  &-img {
+    width: 24%;
+    position: absolute;
+    opacity: 2;
+    transition: .4s;
+    border-radius: 1rem;
+    margin-left: 10%;
+    &:hover {
+      opacity: .2;
+    }
+  }
+
+  &-price {
+    color: white;
+    text-align: center;
+  }
+}

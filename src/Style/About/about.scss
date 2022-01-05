@@ -1,0 +1,38 @@
+.about {
+  width: 100%;
+
+  &-square {
+    width: 389px;
+    height: 204px;
+    top: 180px;
+    background: #FFFFFF;
+    box-shadow: 0 0 16px rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    position: absolute;
+  }
+
+  &-tr {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #1D1D1D;
+    margin-bottom: 24%;
+  }
+  &-rub {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #626262;
+  }
+  &-btn{
+    width: 100px;
+    height: 32px;
+    border-radius: 16px;
+    color:black;
+    border: 1px solid #000;
+    transition: .4s;
+    &:hover {
+      background: #262626;
+    color:white;
+    }
+  }
+}
